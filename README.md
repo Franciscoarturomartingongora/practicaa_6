@@ -6,3 +6,4 @@
 "# practica7"  
 "# practicaa_6"  
 "# practicaa_6" 
+"#practicaa_6"  

@@ -10,6 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Practica7">
         <activity
+            android:name=".urano"
+            android:exported="false" />
+        <activity
+            android:name=".saturno"
+            android:exported="false" />
+        <activity
+            android:name=".jupiter"
+            android:exported="false" />
+        <activity
+            android:name=".marte"
+            android:exported="false" />
+        <activity
+            android:name=".tierra"
+            android:exported="false" />
+        <activity
+            android:name=".venus"
+            android:exported="false" />
+        <activity
             android:name=".mercurio"
             android:exported="false" />
         <activity

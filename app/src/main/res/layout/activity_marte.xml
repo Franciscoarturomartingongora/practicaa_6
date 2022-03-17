@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".sol"
+    tools:context=".marte"
     android:background="#8F0F0115"
     >
 
@@ -13,26 +13,25 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         >
-
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:fontFamily="sans-serif-black"
-        android:text="sol"
+        android:text="marte"
         android:textColor="@color/black"
         android:textSize="75dp" />
-
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:fontFamily="sans-serif-black"
-            android:text="El Sol es una estrella, es decir, un cuerpo celeste que brilla con luz propia, compuesto de hidrógeno y helio a enormes temperaturas en estado de plasma. Es la estrella mas cercana a La Tierra y de la que depende toda la vida en ella. Concentrada en el Sol encontramos el 99,85% de toda la masa del Sistema Solar."
+            android:text="Su atmósfera es de dióxido de carbono y tiene dos satélites naturales: Fobos y Deimos.
+
+Aunque durante mucho tiempo Marte fue considerado un lugar inhabitable,esa percepción ha cambiado en las últimas décadas, debido a las pruebas que sugieren la presencia de grandes masas de agua congelada bajo su superficie."
             android:textColor="@color/black"
             android:textSize="25dp" />
 
     </LinearLayout>
-
 </RelativeLayout>

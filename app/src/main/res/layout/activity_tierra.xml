@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".sol"
+    tools:context=".tierra"
     android:background="#8F0F0115"
     >
 
@@ -19,20 +19,20 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:fontFamily="sans-serif-black"
-        android:text="sol"
+        android:text="tierra"
         android:textColor="@color/black"
         android:textSize="75dp" />
-
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:fontFamily="sans-serif-black"
-            android:text="El Sol es una estrella, es decir, un cuerpo celeste que brilla con luz propia, compuesto de hidrógeno y helio a enormes temperaturas en estado de plasma. Es la estrella mas cercana a La Tierra y de la que depende toda la vida en ella. Concentrada en el Sol encontramos el 99,85% de toda la masa del Sistema Solar."
+            android:text="a presencia de agua y una atmósfera compuesta por oxígeno, nitrógeno y vapor de agua (entre otros componentes), hicieron posible que se generaran las condiciones para la vida.
+
+Otra características del planeta Tierra es la existencia de una capa de ozono que protege a todas las formas de vida de la radiación solar. Esto, y la presencia de grandes masas de agua en estado líquido que conforman un 70% de la composición del planeta, hacen de la Tierra el único planeta habitable, hasta"
             android:textColor="@color/black"
             android:textSize="25dp" />
 
     </LinearLayout>
-
 </RelativeLayout>

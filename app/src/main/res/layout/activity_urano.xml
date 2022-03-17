@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".sol"
+    tools:context=".urano"
     android:background="#8F0F0115"
     >
 
@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:fontFamily="sans-serif-black"
-        android:text="sol"
+        android:text="urano"
         android:textColor="@color/black"
         android:textSize="75dp" />
 
@@ -29,10 +29,11 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:fontFamily="sans-serif-black"
-            android:text="El Sol es una estrella, es decir, un cuerpo celeste que brilla con luz propia, compuesto de hidrógeno y helio a enormes temperaturas en estado de plasma. Es la estrella mas cercana a La Tierra y de la que depende toda la vida en ella. Concentrada en el Sol encontramos el 99,85% de toda la masa del Sistema Solar."
+            android:text="Urano tiene una temperatura de -224 °C, lo cual lo convierte en el planeta con la atmósfera más fría del sistema solar. Además, tiene una serie de anillos que lo rodean pero a diferencia de Saturno, no son tan visibles y se ven como si estuviesen orbitando al planeta de manera vertical.
+
+Sin embargo, esta configuración de los anillos de Urano se trata de un efecto generado por su inclinación, que hace que sus polos se vean en el lugar que le corresponde al ecuador."
             android:textColor="@color/black"
             android:textSize="25dp" />
 
     </LinearLayout>
-
 </RelativeLayout>

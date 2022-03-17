@@ -1,6 +1,5 @@
 package com.example.practica7;
 
-
 import android.app.Activity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,19 +11,20 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-public class AdapterListSolar extends ArrayAdapter <String> {
+public class AdapterListurano extends ArrayAdapter<String> {
+
     private final Activity context;
-    private final String[] nombre;
-    private final String[] descripcion;
-    private final Integer[] id_images;
+    private final String[] nombre8;
+    private final String[] descripcion8;
+    private final Integer[] id_images8;
 
 
-    public AdapterListSolar(Activity context, String[] nombres, String[] descripcion, Integer[] id_images) {
-        super(context,R.layout.item,nombres);
+    public AdapterListurano(Activity context, String[] nombres8, String[] descripcion8, Integer[] id_images) {
+        super(context,R.layout.item,nombres8);
         this.context = context;
-        this.nombre = nombres;
-        this.descripcion = descripcion;
-        this.id_images = id_images;
+        this.nombre8 = nombres8;
+        this.descripcion8 = descripcion8;
+        this.id_images8 = id_images;
     }
 
     @NonNull
@@ -32,18 +32,13 @@ public class AdapterListSolar extends ArrayAdapter <String> {
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         LayoutInflater inflater = context.getLayoutInflater();
         View itemView = inflater.inflate(R.layout.item,null);
-        TextView _nombre = (TextView) itemView.findViewById(R.id.nombre);
-        TextView _descripcion = (TextView) itemView.findViewById(R.id.descripcion);
+        TextView _nombre8 = (TextView) itemView.findViewById(R.id.nombre);
+        TextView _descripcion8 = (TextView) itemView.findViewById(R.id.descripcion);
         ImageView _imagen = (ImageView) itemView.findViewById(R.id.logolista);
-        _nombre.setText(nombre[position]);
-        _descripcion.setText(descripcion[position]);
-        _imagen.setImageResource(id_images[position]);
+        _nombre8.setText(nombre8[position]);
+        _descripcion8.setText(descripcion8[position]);
+        _imagen.setImageResource(id_images8[position]);
         return itemView;
     }
 }
-
-
-
-
-
 

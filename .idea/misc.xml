@@ -3,8 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/PICHIN GONGORA/AndroidStudioProjects/practica7/app/src/main/res/layout/activity_jupiter.xml" value="0.1" />
         <entry key="..\:/Users/PICHIN GONGORA/AndroidStudioProjects/practica7/app/src/main/res/layout/activity_main.xml" value="0.17074275362318841" />
-        <entry key="..\:/Users/PICHIN GONGORA/AndroidStudioProjects/practica7/app/src/main/res/layout/activity_sol.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/PICHIN GONGORA/AndroidStudioProjects/practica7/app/src/main/res/layout/activity_marte.xml" value="0.1" />
+        <entry key="..\:/Users/PICHIN GONGORA/AndroidStudioProjects/practica7/app/src/main/res/layout/activity_mercurio.xml" value="0.1" />
+        <entry key="..\:/Users/PICHIN GONGORA/AndroidStudioProjects/practica7/app/src/main/res/layout/activity_saturno.xml" value="0.1" />
+        <entry key="..\:/Users/PICHIN GONGORA/AndroidStudioProjects/practica7/app/src/main/res/layout/activity_sol.xml" value="0.1" />
+        <entry key="..\:/Users/PICHIN GONGORA/AndroidStudioProjects/practica7/app/src/main/res/layout/activity_tierra.xml" value="0.1" />
+        <entry key="..\:/Users/PICHIN GONGORA/AndroidStudioProjects/practica7/app/src/main/res/layout/activity_urano.xml" value="0.1" />
+        <entry key="..\:/Users/PICHIN GONGORA/AndroidStudioProjects/practica7/app/src/main/res/layout/activity_venus.xml" value="0.1" />
         <entry key="..\:/Users/PICHIN GONGORA/AndroidStudioProjects/practica7/app/src/main/res/layout/item.xml" value="0.25" />
       </map>
     </option>

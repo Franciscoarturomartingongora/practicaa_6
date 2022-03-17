@@ -1,9 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".mercurio">
+    tools:context=".mercurio"
+    android:background="#8F0F0115"
+    >
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Mercurio"
+        android:textColor="@color/black"
+        android:textSize="75dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-black"
+        android:text="El cuerpo del planeta es rocoso y se caracteriza por la presencia de cráteres, resultado de los múltiples impactos de cuerpos celestes de menor tamaño.
+
+Por otra parte, Mercurio no solo es el planeta más cercano al Sol, también es el más pequeño del sistema solar."
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    </LinearLayout>
+</RelativeLayout>
